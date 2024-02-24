@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Khai báo routes khi vercel
 app.get("/", (req, res) => {
-  res.send("test");
+  res.send("THE BORING PROJECT BACKEND");
 });
 app.use("/v1/api/data", dataRouter);
 
